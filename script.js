@@ -17,7 +17,7 @@ function getNewhit() {
 }
 
 function runTimer() {
-  var timer = 3;
+  var timer = 60;
   var rTime = setInterval(function () {
     if (timer > 0) {
       timer--;
