@@ -12,6 +12,10 @@
 <body>
     <section>
         <div id="main">
+            <div id="start">
+                <h1>To Start the game </h1>
+                <button id="btnStart">click me</button>
+            </div>
             <div id="panel">
                 <div id="paneltop">
                     <div class="elem">
@@ -29,13 +33,19 @@
 
                 </div>
                 <div id="pndw">
-                    <div id="bubble">5</div>
+                    <div id="bubble"></div>
+
+                </div>
+                <div id="result">
+                    <h3>Game over</h3>
+                    <button id="restart">Restart</button>
                 </div>
             </div>
         </div>
     </section>
 
-
+    <audio src="sound/gameSound.mp3" id="gameSound" loop></audio>
+    <audio src="sound/no.mp3" id="hitS"></audio>
     <script src="script.js"></script>
 </body>
 
