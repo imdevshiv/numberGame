@@ -45,6 +45,7 @@ document.querySelector("#pndw").addEventListener("click", function (detail) {
     scoreH();
     makeBubble();
     getNewhit();
+    document.querySelector("#sHit").play();
   } else {
     document.querySelector("#hitS").play();
   }

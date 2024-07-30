@@ -35,7 +35,6 @@ html,body,section{
     justify-content: space-around;
     align-items: center;
     border-top-left-radius: 20px ;
-    /* gap: 4px; */
 }
 .elem{
     display: flex; 
@@ -86,6 +85,8 @@ h2{
     color: white;
     font-size: 24px;
     font-weight: 400;
+    /* Stop to select text */
+  user-select: none;
 }
 #result{
     display: flex;
@@ -96,8 +97,6 @@ h2{
     align-items: center;
     border-radius: 4px ;
     gap: 4px;
-    /* background-color: green; */
-    /* display: none; */
 }
 
 #bubble:hover{
